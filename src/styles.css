@@ -115,14 +115,31 @@ body{
 
 
 .footer{
-    color: #e3d7f5;
+    padding-top:6px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: #77747b;
     align-items: center;
-    font-size: 21px;
+    font-size: 17px;
     letter-spacing: -0.05em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider{
+    text-align: center;
+    color: #1b1623;
+    margin-bottom: 0px;
 }
 
 .footer-text{
     align-self: center;
-    padding: 10px;
+    padding-right: 10px;
+    display:inline;
 }
 
+.git{
+    display:inline;
+    padding-top: 0px;
+    margin-top: 0px;
+}
