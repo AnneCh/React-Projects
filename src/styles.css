@@ -25,7 +25,8 @@ body{
 .h2 {
     margin:0;
     margin-right: auto;
-    color: #dfecef;
+    color: #bae4ed;
+    font-family:cursive;
 }
 
 .h3 {    
@@ -73,13 +74,16 @@ body{
     display: inline;
     justify-content: center;
     padding: 9px 13px 9px 11px;
-    width: 115px;
+    width: 155px;
     height: 34px;
     left: 283px;
     top: 468px;    
     background: #eceff2;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .btn-linkedin{
@@ -88,13 +92,25 @@ body{
     margin-left:50px;
     padding: 9px 13px 9px 11px;
     gap: 8px;
-    width: 115px;
+    width: 155px;
     height: 34px;
     left: 283px;
     top: 468px;    
     background: #5093E2;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.section{
+    padding-left:35px;
+    padding-right:35px;
+}
+
+.txt{
+    color: #fbefd9;
 }
 
 
