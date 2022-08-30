@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo{
+    position: absolute;
+width: 82.02px;
+height: 25.35px;
+left: 30px;
+top: 22px;
+
+}
