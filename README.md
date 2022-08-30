@@ -1,6 +1,7 @@
 # Simple page creation
 
 Following the full React course by Free Code Camp
+Creation of a simple page to create a simple navbar and component.
 
 # Getting Started with Create React App
 
