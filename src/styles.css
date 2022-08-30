@@ -13,3 +13,30 @@ body {
     padding:20px 36px;
     box-shadow: 5px 3px 28px rgba(79, 3, 87, 0.379);
 }
+
+.hero{
+    width: 100%;
+}
+.hero-pics{
+    padding: 50px 325px;
+    width: 100%;
+    height: 910px;
+}
+
+.hero-h1{
+    font-family: Poppins;
+    text-align: left;
+    font-size:109px;
+    font-weight: 600;
+    line-height: 110%;
+    padding-left: 75px;
+}
+
+.hero-text{
+    font-family: Poppins;
+    padding-left: 75px;
+    font-size: 50px;
+    font-weight:300;
+    line-height:110%;
+    padding-right:900px;
+}
