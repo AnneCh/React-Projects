@@ -6,11 +6,10 @@ body {
     margin: 0;
 }
 
-.logo{
-    position: absolute;
-width: 82.02px;
-height: 25.35px;
-left: 30px;
-top: 22px;
-
+.navbar{
+    height:70px;
+    width: 100%;
+    display:flex;
+    padding:20px 36px;
+    box-shadow: 5px 3px 28px rgba(79, 3, 87, 0.379);
 }
