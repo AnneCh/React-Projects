@@ -2,7 +2,6 @@ import React from "react";
 import '../styles.css';
 import face from "./maface.png";
 
-
 export default function Info(){
     return(
         <div>
