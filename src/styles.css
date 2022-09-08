@@ -16,7 +16,7 @@ body {
 }
 
 section{
-    padding:20px;
+    padding:30px;
 }
 
 .hero{
@@ -38,4 +38,52 @@ section{
 .hero-text{
     color: #222222;
     font-size: 35px;
+    max-width: 750px;
+}
+
+/* card design */
+
+.card{
+    padding:30px;
+}
+
+.soldout{
+    position:absolute;
+    align-self: left;
+    padding:10px;
+    border-radius: 2px;
+    width: 120px;
+}
+
+.katie{
+    width: 400px;
+}
+
+.info{
+    padding: 5px;
+    padding-top:2px;
+}
+
+mark.grey{
+    color:#918E9B;
+    background: none;
+}
+.star{
+    padding:1px;
+    padding-right:4px;
+}
+.grade{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.description{
+    font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.price{
+    font-size: 22px;
+    margin-top: 4px;
 }
