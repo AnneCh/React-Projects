@@ -1,8 +1,6 @@
 import React from "react";
 import '../styles.css';
 import git from "./github.png";
-import { Link } from "react-router-dom";
-
 //insert social icons, twitter, facebook,github
 
 export default function Footer(){
