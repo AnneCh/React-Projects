@@ -2,6 +2,8 @@
 
 Tutorial to recreate this https://www.figma.com/file/4YjrygFEXOcDp9AAnVFv7o/Airbnb-Experiences?node-id=0%3A1
 
+=> I've chosen to adapt the design to fit a display that I prefered
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

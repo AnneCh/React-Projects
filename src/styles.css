@@ -18,25 +18,38 @@ body {
     width: 100%;
 }
 .hero-pics{
-    padding: 50px 325px;
-    width: 100%;
-    height: 910px;
+    position: absolute;
+    width: 1185px;
+    height: 696px;
+    left: 631px;
+    top: 130px;
 }
 
 .hero-h1{
-    font-family: Poppins;
-    text-align: left;
-    font-size:109px;
-    font-weight: 600;
+    position: absolute;
+    text-align: right;
+    width: 527px;
+    left: 36px;
+    top: 180px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
     line-height: 110%;
-    padding-left: 75px;
 }
 
 .hero-text{
-    font-family: Poppins;
-    padding-left: 75px;
-    font-size: 50px;
-    font-weight:300;
-    line-height:110%;
-    padding-right:900px;
+    position: absolute;
+    text-align: right;
+    width: 527px;
+    height: 56px;
+    left: 36px;
+    top: 420px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 110%;
+    
+    color: #222222;
 }
