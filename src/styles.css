@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins';
 }
 
 .navbar{
@@ -14,41 +15,27 @@ body {
     box-shadow: 5px 3px 28px rgba(79, 3, 87, 0.379);
 }
 
-.section{
-    width: 100%;
+section{
+    padding:20px;
 }
+
+.hero{
+    display:flex;
+    flex-direction: column;
+}
+
 .hero-pics{
-    position: absolute;
-    width: 1185px;
-    height: 696px;
-    left: 631px;
-    top: 130px;
+    max-width: 1300px;
+    align-self: center;
 }
 
 .hero-h1{
-    position: absolute;
-    text-align: right;
-    width: 527px;
-    left: 36px;
-    top: 180px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 800;
     font-size: 80px;
+    margin-bottom:16px;
     line-height: 110%;
 }
 
 .hero-text{
-    position: absolute;
-    text-align: right;
-    width: 527px;
-    height: 56px;
-    left: 36px;
-    top: 420px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 110%;
     color: #222222;
+    font-size: 35px;
 }
