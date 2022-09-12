@@ -14,23 +14,25 @@ function App() {
         img={katie}
         grade={5}
         review={6}
-        country={'USA'}
+        country="USA"
         title="Life lessons with Katie Zaferes"
         price={136}
       />
       <Card
         img={wedding}
+        alt="wedding"
         grade={5}
         review={30}
-        country={'USA'}
+        country="USA"
         title="Learn wedding photography"
         price={125}
       />
       <Card
         img={bike}
+        alt="bike"
         grade={4.8}
         review={2}
-        country={'USA'}
+        country="USA"
         title="Bike riding in mountains"
         price={50}
       />

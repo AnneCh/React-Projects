@@ -54,6 +54,7 @@ section{
 
 .card{
     padding-left:300px;
+    align-content:space-between;
 }
 
 .soldout{
