@@ -1,6 +1,5 @@
 import React from "react"
 import sold from './sold.png'
-import star from './Star.png'
 
 /*
 Challenge: Build the Card component

@@ -55,6 +55,9 @@ section{
 .card{
     padding-left:300px;
     align-content:space-between;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
 }
 
 .soldout{
