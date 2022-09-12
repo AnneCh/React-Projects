@@ -1,5 +1,4 @@
 import React from "react"
-import katie from './Katie.png'
 import sold from './sold.png'
 import star from './Star.png'
 
@@ -22,16 +21,25 @@ Notes:
   this data into the component.
 */
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
             <img className="soldout" src={sold}></img>
-            <img className="katie" src={katie}></img>
+            <img className="katie" src={props.img}></img>
             <div className="info">
-                <p className="grade"><img src={star} className='star'></img>5.0 <mark class="grey">(6)- USA </mark></p> 
-                <p className="description">Life lessons with Katie Zaferes</p>
-                <p className="price"><b>From $136</b> / person</p>
+                <span>{props.grade}</span>
+                <span className="gray">({props.review}) • </span>
+                <span className="gray">{props.country}</span>
+                <p className="description">{props.title}</p>
+                <p className="price"><b>From ${props.price}</b> / person</p>
             </div>
-        </div>
+        </div> 
     )
 }
+
+<div className="card--stats">
+<img src="../images/star.png" className="card--star" />
+<span>5.0</span>
+<span className="gray">(6) • </span>
+<span className="gray">USA</span>
+</div>
