@@ -26,9 +26,10 @@ export default function Card(props) {
             <img className="soldout" src={sold}></img>
             <img className="katie" src={props.img}></img>
             <div className="info">
-                <span>{props.grade}</span>
-                <span className="gray">({props.review}) • </span>
-                <span className="gray">{props.country}</span>
+                <img src="./star.png" className="star" />
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) • </span>
+                <span className="gray">{props.location}</span>
                 <p className="description">{props.title}</p>
                 <p className="price"><b>From ${props.price}</b> / person</p>
             </div>
