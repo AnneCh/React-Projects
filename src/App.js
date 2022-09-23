@@ -20,7 +20,7 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      {experience}
+      <section className="cards-list">{experience}</section>
     </>
   )
 }

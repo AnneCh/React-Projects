@@ -24,7 +24,7 @@ body {
 }
 
 section{
-    padding-left:300px;
+    padding-left:100px;
     padding-top:30px;
 }
 
@@ -53,8 +53,8 @@ section{
 /* card design */
 
 .card{
-    padding-left:300px;
-    align-content:space-between;
+    width: 175px;
+    font-size: 12px;
     flex: 0 0 auto;         /* ADD */
     display: flex;          /* ADD */
     flex-direction: column; /* ADD */
@@ -67,17 +67,32 @@ section{
     border-radius: 2px;
     width: 120px;
 }
-
-.katie{
-    width: 400px;
+.image {
+    width: 100%;
+    height:50%;
+    border-radius: 9px;
+    margin-bottom: 9px;
 }
 
+/* ADD */
+.title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+/* 
 .info{
-    padding: 5px;
-    padding-top:2px;
-}
+    display: flex;
+    align-items: center;
+} */
 
-mark.grey{
+.gray{
     color:#918E9B;
     background: none;
 }
@@ -85,10 +100,7 @@ mark.grey{
     padding:1px;
     padding-right:4px;
 }
-.grade{
-    font-size: 25px;
-    margin-bottom: 0;
-}
+
 
 .description{
     font-size: 22px;
@@ -98,5 +110,5 @@ mark.grey{
 
 .price{
     font-size: 22px;
-    margin-top: 4px;
+    margin-top: auto;
 }
