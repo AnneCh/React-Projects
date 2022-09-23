@@ -19,17 +19,26 @@ Notes:
 */
 
 export default function Card(props) {
+    let badgeText
+
+    if (props.item.openSpots === 0){
+        badgeText="SOLD OUT"
+    } else if (props.item.location === "Online"){
+        badgeText = "ONLINE"
+    }
+
+
     return (
         <div className="card">
-            {/* <img className="soldout" src="./images/sold.png"></img> */}
-            <img className="image" src={props.img}/>
+            {badgeText && <div className="soldout">{badgeText}</div>}
+            <img className="image" src={props.item.coverImg}/>
             <div className="info">
                 <img src="./images/star.png" className="star" />
-                <span>{props.rating}</span>
-                <span className="gray">({props.reviewCount}) • </span>
-                <span className="gray">{props.location}</span>
-                <p className="title">{props.title}</p>
-                <p className="price"><b>From ${props.price}</b> / person</p>
+                <span>{props.item.stats.rating}</span>
+                <span className="gray">({props.item.stats.reviewCount}) • </span>
+                <span className="gray">{props.item.location}</span>
+                <p className="title">{props.item.title}</p>
+                <p className="price"><b>From ${props.item.price}</b> / person</p>
             </div>
         </div> 
     )

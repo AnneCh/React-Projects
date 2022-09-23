@@ -7,12 +7,15 @@ function App() {
   const experience = data.map((item) => {
     return (
       <Card
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
-        title={item.title}
-        price={item.price}
+        key={item.id}
+        item={item} // or {...item} but removing the ".item" in the card component
+        // img={item.coverImg}
+        // rating={item.stats.rating}
+        // reviewCount={item.stats.reviewCount}
+        // location={item.location}
+        // title={item.title}
+        // price={item.price}
+        // openSpots={item.openSpots}
       />
     )
   })
