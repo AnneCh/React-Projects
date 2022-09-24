@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(129, 78, 177);
+    height:90px;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.nav-img{
+    width:30px;
+    height:30px;
+    flex-direction: row;
+    padding:15;
+    position:relative;
+}
+
+.mainCard{
+    display:flex;
+    justify-content: center;
+    padding:40;
+    padding-bottom: 0;
+}
+.image-card{
+    height:350px;
+    width:600px;
+}
+.title-card{
+    display:inline;
+    padding:20;
+    max-width: 60vh;
+}
+.location{
+    display:inline;
+    margin:5;
+}
+.location-image{
+    height:18px;
+    width:14px;
+    padding-right:15px;
+    padding-top:1px;
+    position:absolute;
+}
+.country{
+    position:relative;
+    font-family: 'Inter';
+    font-size: larger;
+    padding:25;
+    padding-top:10;
+}
+.maps{
+    color:darkgray;
+    margin-left:3;
+    font-style: italic;
+}
+
+.dates{
+    font-weight: bold;
+    padding-bottom: 10;
+}
+
+a {
+    all: unset;
+}
