@@ -1,11 +1,23 @@
 import React from "react";
 import '../styles.css';
+import MemeResult from "./MemeResult"
+import data from "../memesData.js"
+import memesData from "../memesData";
 
 
 export default function Meme(){
 
-    function handleClick(){console.log("haha")}
 
+    function handleClick(){  
+        const memesArray = memesData.data.memes 
+        const randomNumber = Math.floor(Math.random() * memesArray.length)
+        const singleMeme = memesArray[randomNumber].url
+        return(
+            <div>
+                <img src={singleMeme}/>
+            </div>
+        )
+    }
 
     return(
         <main>

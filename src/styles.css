@@ -46,3 +46,8 @@ form{
 img:hover{
     filter: brightness(50%);
   }
+
+.meme-image{
+    height:200px;
+    width:75%;
+}

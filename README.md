@@ -1,6 +1,6 @@
-# Travel Journal with links
+# Meme Generator - Lesson 3
 
-Tutorial to recreate this https://www.figma.com/file/MOYRprL7sNV4bncw8S8iPs/Travel-Journal-(Copy)?node-id=2%3A2
+Tutorial to recreate this https://www.figma.com/file/Iu8lnKhoneROaUg2W3HzIP/Meme-Generator-(Copy)?node-id=0%3A1
 
 # Getting Started with Create React App
 
