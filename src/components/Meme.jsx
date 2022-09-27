@@ -7,16 +7,11 @@ import memesData from "../memesData";
 
 export default function Meme(){
 
-
+    const [memeImage, setMemeImage] = React.useState("")
     function handleClick(){  
         const memesArray = memesData.data.memes 
         const randomNumber = Math.floor(Math.random() * memesArray.length)
-        const singleMeme = memesArray[randomNumber].url
-        return(
-            <div>
-                <img src={singleMeme}/>
-            </div>
-        )
+        setMemeImage(memesArray[randomNumber].url)
     }
 
     return(
@@ -25,6 +20,7 @@ export default function Meme(){
                 <input className="form-input" type="text" placeholder="Say the words..."></input>
                 <input className="form-input" type="text" placeholder="...and I'll print them"></input>
                 <button onClick={handleClick} className="form-button">Generate New Meme!!</button>
+                <div><img src={memeImage}/></div>
             </form>
         </main>
     )
